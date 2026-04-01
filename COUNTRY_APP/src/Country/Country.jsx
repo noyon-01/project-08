@@ -50,7 +50,7 @@ export default function Country({
       </p>
       <div className="flex gap-2 my-3">
         <button onClick={handleAddVisited} className="btn btn-primary">
-          {visited ? "Not Visited" : "Visited"}
+          {visited ? "Visited" : "Not Visited"}
         </button>
         <button
           onClick={handleRemoveVisitedCountry}
