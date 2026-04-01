@@ -1,5 +1,6 @@
 import { Suspense } from "react";
 import Countries from "./Countries/Countries";
+import { ToastContainer } from 'react-toastify';
 
 export default function App() {
   const countryPromise = fetch(
@@ -17,6 +18,7 @@ export default function App() {
       >
         <Countries countryPromise={countryPromise} />
       </Suspense>
+      <ToastContainer />
     </div>
   );
 }
