@@ -34,7 +34,7 @@ export default function Country({
       className={`p-3 rounded-xl space-y-1 bg-base-100 ${visited && "bg-blue-300"}`}
     >
       <img
-        className="w-145 h-65 md:w-96 md:h-55 rounded-xl mb-3"
+        className="w-96 h-45 md:h-55 rounded-xl mb-3"
         src={country.flags.flags.png}
         alt={country.flags.flags.alt}
       />
